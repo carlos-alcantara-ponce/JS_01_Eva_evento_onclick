@@ -1,0 +1,153 @@
+* {
+    /* outline: 1px solid red; */
+}
+
+* {
+    padding: 0;
+
+    margin: 0;
+}
+
+.body {
+    width: 1000px;
+}
+
+/* Barra superior */
+
+.barra-superior {
+
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0px 50px 0px 50px;
+    margin: 0px 250px 0px 250px;
+
+    ;
+}
+
+#search-box {
+    width: 600px;
+    height: 50%;
+}
+
+.btn {
+    background-color: blue;
+    width: 70px;
+    height: 35px;
+    box-shadow: 5px 5px black;
+    color: white;
+}
+
+
+/* Contenido */
+
+.contenido {
+    display: flex;
+    margin: 20px 250px 0px 250px;
+    justify-content: space-between;
+}
+
+/* **************************************************** */
+/* *************** Columna Izquierda ****************** */
+/* **************************************************** */
+
+
+.col-izq {
+    flex: 2
+}
+
+/* Card definition */
+
+.definition {
+
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+}
+
+
+/* Lado izq del card definition */
+
+.def-izq {
+
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.def-izq p {
+
+    margin-top: 5px;
+}
+
+.def-izq button {
+
+    margin-top: 15px;
+}
+
+
+.type {
+
+    font-style: italic;
+}
+
+.plural {}
+
+.plural-italica {
+    font-style: italic;
+}
+
+.likes {
+    background-color: orange;
+    width: 70px;
+    height: 35px;
+    box-shadow: 5px 5px black;
+    color: black;
+}
+
+/* Lado der del card definition */
+
+.def-der {
+    padding: 20px;
+    flex: 1;
+}
+
+.link {}
+
+/* **************************************************** */
+/* *************** Columna Derecha ******************** */
+/* **************************************************** */
+
+.col-der {
+    flex: 1;
+    margin-left: 50px;
+}
+
+
+.add-definition {
+    border-style: solid;
+    border-color: black;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+}
+
+
+
+.add-btn {
+    background-color: green;
+    width: 170px;
+    height: 35px;
+    box-shadow: 5px 5px black;
+    color: black;
+    margin: 15px;
+}
